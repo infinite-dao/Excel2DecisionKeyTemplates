@@ -1,0 +1,35 @@
+{
+  "name": "mediawiki/excel2decision-key-templates",
+  "type": "mediawiki-extension",
+  "description": "MediaWiki extension that converts decision key from spreadsheet table format to wiki format (template:Key Start, template:Switch)",
+  "keywords": [
+    "templates",
+    "spreadsheet",
+    "Wiki",
+    "converter",
+    "MediaWiki"
+  ],
+  "homepage": "http://biowikifarm.net/meta/",
+  "license": "GPL-2.0+",
+  "authors": [
+    {
+      "name": "Andreas Plank",
+      "role": "Original author"
+    },
+    {
+      "name": "Yaron Koren",
+      "role": "Contributor"
+    },
+    {
+      "name": "Stephan Gambke",
+      "role": "Contributor"
+    }
+  ],
+  "support": {
+    "email": "andreas.plank@web.de"
+  },
+  "require": {
+    "php": ">=5.3.0",
+		"phpoffice/phpexcel": ">=1.8.1"
+  }
+}

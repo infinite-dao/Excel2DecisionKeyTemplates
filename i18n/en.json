@@ -1,0 +1,57 @@
+{
+	"@metadata": {
+			"authors": [
+					"Andreas Plank"
+			]
+	},
+	"spreadsheet2keytemplates": "Convert spreadsheet file to key templates",
+	"tab2keytemplates": "Convert tab-separated file to key templates",
+	"excel2decisionkeytemplates-desc": "Converts data (either tab-separated or Excel format) to templates used in decision keys (<nowiki>{{Key Start}}</nowiki>, <nowiki>{{Lead}}</nowiki> and <nowiki>{{ImageSwitch}}</nowiki>). New [[Special:SpecialPages|Special Pages]] are added for conversion. Depends on composer package phpoffice/phpexcel.",
+	"e2d_error_gawk": "Error: Please install gawk. Could not locate this command line tool.",
+	"e2d_error_no_file_selected": "''Error: No file was selected, please specify one.''",
+	"e2d_error_output_file": "Error: the file containing the converted templates was not found: '$1'",
+	"e2d_error_command_line": "Error: the command line returned the error code $1 while executing the following command:<br/>$2",
+	"e2d_error_tempfile_not_writable": "Error: could not write to temporary file $1 …",
+	
+	"e2d_convert_imageswitch_link_url_this_wiki_script-url-edit":"/w/index.php?title=%s&action=edit",
+	"e2d_convert_imageswitch_link_url_this_wiki_text":"this Wiki",
+	"e2d_convert_imageswitch_link_url_label":"Write links for",
+	"e2d_convert_imageswitch_link_url_offene_naturfueher_article-url":"http://offene-naturfuehrer.de/web/",
+	"e2d_convert_imageswitch_link_url_offene_naturfueher_script-url-edit":"http://offene-naturfuehrer.de/w/index.php?title=%s&action=edit",
+	"e2d_convert_imageswitch_link_url_bayernflora_article-url":"http://wiki.bayernflora.de/web/",
+	"e2d_convert_imageswitch_link_url_bayernflora_script-url-edit":"http://wiki.bayernflora.de/w/index.php?title=%s&action=edit",
+	"e2d_convert_imageswitch_link_url_species_article-url":"http://species-id.net/wiki/",
+	"e2d_convert_imageswitch_link_url_species_script-url-edit":"http://species-id.net/w/index.php?title=%s&action=edit",
+
+	"e2d_convert_resource-limits_phpexcel": "Due to software restriction in PHPExcel a name of a spreadsheet can not be longer than 31 characters.",
+  "e2d_convert_fieldset-legend_apply-globlly": "Options, that can be specified for all templates",
+  "e2d_convert_imageswitch_caption_lines_label": "caption lines (default: 1)",
+  "e2d_convert_imageswitch_caption_style_label": "as CSS style (caption)",
+  "e2d_convert_imageswitch_caption_style_placeholder": "CSS or as {{Wiki-template}}",
+  "e2d_convert_imageswitch_image_width_label": "as images width (e.g. “200”, default “150”)",
+  "e2d_convert_imageswitch_image_width_placeholder": "images width",
+  "e2d_convert_imageswitch_layout_format_label": "as layout form (image captions, defaut: 'top: link, bottom: text')",
+  "e2d_convert_imageswitch_layout_format_option_default_text": "top: link, bottom: text",
+  "e2d_convert_imageswitch_layout_format_option_non-default_text": "top: text, bottom: link",
+  "e2d_convert_imageswitch_lead_lines_label": "text lines (default: 2)",
+  "e2d_convert_imageswitch_rating_label": "as rating (1 = worst …  5 = the best)",
+  "e2d_convert_imageswitch_recommendation_group_label": "as recommendation group (e.g. “plant identification (beginners)”)",
+  "e2d_convert_imageswitch_recommendation_group_placeholder": "recommendation group",
+  "e2d_convert_imageswitch_style_label": "as CSS style (ImageSwitch)",
+  "e2d_convert_imageswitch_style_placeholder": "CSS or as {{Wiki-template}}",
+  "e2d_convert_imageswitch_pagename_addendum_label": "as title-addendum to all pages",
+  "e2d_convert_imageswitch_pagename_addendum_placeholder": "a title-addendum to all pages",
+
+	"e2d_convert_selectfile": "Please select the file ($1) to convert:",
+	"e2d_convert_encodingtype": "Encoding type:",
+	"e2d_convert_convert_to_templateset": "If the data matrix of the decision key is structured correctly, then the following templates can be generated:",
+	"e2d_convert_convert_to_image_switch": "<nowiki>{{ImageSwitch}}</nowiki> (multiple or single)",
+	"e2d_convert_convert_to_key_start": "<nowiki>{{Key Start}}</nowiki> and <nowiki>{{Lead}}</nowiki>",
+	"e2d_convert_success_keystart_template": "Copy the following text to the wiki page you want to contain it. A page you want to create can be accessed by performing a page searchusing the search box. After that you will see a link to create the new page.",
+	"e2d_convert_new_data": "Convert another file",
+	"e2d_convert_to_this_template": "convert into this template type",
+	"e2d_convert-submit": "Convert",
+	"e2d_convert_converting": "Convert …",
+	"e2d_filetype_tab": "tab separated",
+	"e2d_filetype_spreadsheet": "spreadsheet"
+}

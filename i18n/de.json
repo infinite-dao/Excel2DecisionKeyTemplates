@@ -1,0 +1,50 @@
+{
+	"@metadata": {
+		"authors": [
+			"Andreas Plank"
+		]
+	},
+	"spreadsheet2keytemplates": "Datei (Tabellenblatt) in Schlüsselvorlagen konvertieren",
+	"tab2keytemplates": "Datei (Tab-getrennt) in Schlüsselvorlagen konvertieren",
+	"excel2decisionkeytemplates-desc": "Ermöglicht das Konvertieren von Tabellendaten in Bestimmungsschlüssel-Vorlagen (<nowiki>{{Key Start}}</nowiki>, <nowiki>{{Lead}}</nowiki> und <nowiki>{{ImageSwitch}}</nowiki>). Die Daten können aus Text-Format (Tabulator getrennt) oder aus einem Tabellenblatt (Excel, LibreOffice-Format) konvertiert werden. Zum Konvertieren werden neue [[Spezial:Spezialseiten|Spezialseiten]] hinzugefügt. Technisch abhängig vom composer Paket phpoffice/phpexcel.",
+	"e2d_error_gawk": "Fehler: Bitte gawk installieren. Das Kommandozeilenprogramm wurde nicht gefunden.",
+	"e2d_error_command_line": "Fehler: in der Kommandozeile gab es folgenden Fehlercode $1 bei folgendem Kommando:<br/>$2",
+	"e2d_error_no_file_selected": "''Fehler: Keine Datei angegeben. Bitte geben Sie eine an.''",
+	"e2d_error_output_file": "Fehler: die Datei der konvertierten Vorlagen wurde nicht gefunden: '$1'",
+	"e2d_error_tempfile_not_writable": "Fehler: konnte Daten nicht in temporäre Datei $1 schreiben …",
+	
+	"e2d_convert_imageswitch_link_url_this_wiki_text":"dieses Wiki",
+	"e2d_convert_imageswitch_link_url_label":"Links schreiben für",
+
+	"e2d_convert_selectfile": "Bitte die zu konvertierende Datei ($1) auswählen:",
+	"e2d_convert_encodingtype": "Zeichenkodierung:",
+	"e2d_convert_convert_to_templateset": "Wenn die Bestimmungsmatrix korrekt strukturiert vorliegt, kann sie in folgende Vorlagen umgewandelt werden:",
+	"e2d_convert_convert_to_image_switch": "<nowiki>{{ImageSwitch}}</nowiki> (mehrfach oder einfach)",
+	"e2d_convert_convert_to_key_start": "<nowiki>{{Key Start}}</nowiki> und <nowiki>{{Lead}}</nowiki>",
+	"e2d_convert_success_keystart_template": "Kopiere folgenden Text auf die Wikiseite, wo der Schlüssel sein soll. Zu einer neuen Seite kommst Du auch, indem Du in einem anderen Browsertab nach einer Seite suchst. Hernach findest Du einen Link zum Erstellen der Seite.",
+	"e2d_convert_new_data": "Weitere Datei konvertieren",
+	"e2d_convert_to_this_template": "konvertiere in diesen Vorlagentyp",
+	
+  "e2d_convert_resource-limits_phpexcel": "Aufgrund einer Softarebeschränkung von PHPExcel können die Namen von Tabellenblättern nicht länger als 31 Zeichen sein.",
+  "e2d_convert_fieldset-legend_apply-globlly": "Optionen, die für allen Vorlagen gesetzt werden können",
+  "e2d_convert_imageswitch_caption_lines_label": "Bild-Beschriftungszeilen (Standard: 1)",
+  "e2d_convert_imageswitch_caption_style_label": "als CSS Stil (Bildbeschriftung)",
+  "e2d_convert_imageswitch_caption_style_placeholder": "CSS oder als {{Wiki-Vorlage}}",
+  "e2d_convert_imageswitch_image_width_label": "als Bilderbreite (z.B. „200“, Standard „150“)",
+  "e2d_convert_imageswitch_image_width_placeholder": "Bilderbreite",
+  "e2d_convert_imageswitch_layout_format_label": "als Layout-Form (Bildbeschriftungen, Standard: 'oben: Link, unten: Text')",
+  "e2d_convert_imageswitch_layout_format_option_default_text": "oben: Link, unten: Text",
+  "e2d_convert_imageswitch_layout_format_option_non-default_text": "oben: Text, unten: Link",
+  "e2d_convert_imageswitch_lead_lines_label": "Textzeilen (Standard: 2)",
+  "e2d_convert_imageswitch_rating_label": "als Bewertung (1 = am schlechtesten …  5 = am besten)",
+  "e2d_convert_imageswitch_recommendation_group_label": "als Empfehlungs-Klasse (z.B. „Pflanzenbestimmung (Anfänger)“)",
+  "e2d_convert_imageswitch_recommendation_group_placeholder": "Empfehlungs-Klasse",
+  "e2d_convert_imageswitch_style_label": "als CSS Stil (gesamt ImageSwitch)",
+  "e2d_convert_imageswitch_style_placeholder": "CSS oder als {{Wiki-Vorlage}}",
+  "e2d_convert_imageswitch_pagename_addendum_label": "als Seiten-Anhängsel",
+  "e2d_convert_imageswitch_pagename_addendum_placeholder": "Anhängsel an Seitentitel aller Seiten",
+	"e2d_convert-submit": "Konvertieren",
+	"e2d_convert_converting": "Konvertiere …",
+	"e2d_filetype_tab": "Tabulator getrennt",
+	"e2d_filetype_spreadsheet": "Tabellenkalkulationsblatt"
+}

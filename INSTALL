@@ -1,0 +1,33 @@
+[[Excel2DecisionKeyTemplates 0.2]]
+
+Contents:
+* Disclaimer
+* Requirements
+* Installation
+* Contact
+
+== Disclaimer ==
+
+For a proper legal disclaimer, see the file "COPYING".
+
+== Requirements ==
+
+The extension can make use of, but does not require, an install of
+PHPExcel.
+
+== Installation ==
+
+(1) Extract the archive to obtain the directory "Excel2DecisionKeyTemplates"
+    that contains all relevant files. Copy this directory (or
+    extract/download it) to "[wikipath]/extensions/".
+(2) Insert the following line into the file "[wikipath]/LocalSettings.php":
+      include_once( "$IP/extensions/Excel2DecisionKeyTemplates/Excel2DecisionKeyTemplates.php" );
+(3) To enable importing spreadsheet files (Excel, OOCalc, Gnumeric, ...)
+    use Composer to install the phpoffice/phpexcel module. From the MediaWiki
+    installation directory call
+      composer require "phpoffice/phpexcel:~1.8"
+
+== Contact ==
+
+If you have any issues or questions, please send them to
+andreas dot plank at web dot de
