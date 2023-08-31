@@ -22,6 +22,30 @@ key templates are likly only a part of a page.
 
 Notes on installing Data Transfer can be found in the file INSTALL.
 
+## Table Conversion by Hand and Linux Command Line
+
+If you have no MediaWiki available you can convert the table data on the command line, say:
+
+1. convert your excel sheet to text file: the output separator has to be “tabulator” or “\t” (it must be the tab character anyhow) save it locally
+2. use the locally saved text-tab file to convert it by `gawk` (install `gawk` by your linux software manager)
+3. under Linux/Unix you can try then translating the tab-delimited source file into a wiki code file using the following command:
+
+```bash
+cd Excel2DecisionKeyTemplates 
+
+# with long options
+gawk --assign='shellvar_wgLanguageCode=de-formal' \
+  --file='./scripts/tab2KeyStart_and_Lead.awk' \
+    'table_source_file_in_tab-separated_text-format.tab' \
+  > 'table_output_Wiki_text.txt'
+
+# with short option
+gawk -v 'shellvar_wgLanguageCode=de-formal' \
+  -f './scripts/tab2KeyStart_and_Lead.awk' \
+    'table_source_file_in_tab-separated_text-format.tab' \
+  > 'table_output_Wiki_text.txt'
+```
+
 ## Credits 
 
 Excel2DecisionKeyTemplates was adopted from extension Data Transfer written by 
