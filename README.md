@@ -6,7 +6,8 @@ A MediaWiki extension to parse Excel spreadsheets into Wiki templates developed 
 
 Excel2DecisionKeyTemplates is an extension to MediaWiki that,
 converts data from either a spreadsheeet or a tab separated file.
-The structure of those files is specific. 
+The structure of those files is specific. For detailed descrition of 
+the required table structure, please read the help files in directory [./doc/](./doc/).
 
 In case of a conversion to `{{Key Start}}` and `{{Lead}}` metadata are given first, e.g:
 * creators (tab) my name, your name
@@ -19,6 +20,7 @@ In case of a conversion to `{{Key Start}}` and `{{Lead}}` metadata are given fir
 Those data are converted to the needed template structure and the converted text
 can be copied to any page manually. This manual approach was choosen, because 
 key templates are likly only a part of a page.
+
 
 Notes on installing Data Transfer can be found in the file INSTALL.
 
