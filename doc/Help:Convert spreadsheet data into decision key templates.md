@@ -56,46 +56,21 @@ can be converted on the following special pages:
 <div id="toc" class="toc">
 
 
-## Inhaltsverzeichnis
+## Table of Content
 
-
--   [<span class="tocnumber">1</span> <span class="toctext">Structure of
-    a File for {{Key Start}} with
-    {{Lead}}</span>](#Structure_of_a_File_for_.7B.7BKey_Start.7D.7D_with_.7B.7BLead.7D.7D)
-    -   [<span class="tocnumber">1.1</span> <span class="toctext">Brief
-        Example</span>](#Brief_Example)
-    -   [<span class="tocnumber">1.2</span> <span class="toctext">Meta
-        data for Identification Key in
-        Detail</span>](#Meta_data_for_Identification_Key_in_Detail)
-    -   [<span class="tocnumber">1.3</span> <span
-        class="toctext">Columns of the Decision Key Matrix in
-        Detail</span>](#Columns_of_the_Decision_Key_Matrix_in_Detail)
-        -   [<span class="tocnumber">1.3.1</span> <span
-            class="toctext">Modes of the
-            Decision</span>](#Modes_of_the_Decision)
-        -   [<span class="tocnumber">1.3.2</span> <span
-            class="toctext">Columns of
-            Determination</span>](#Columns_of_Determination)
-        -   [<span class="tocnumber">1.3.3</span> <span
-            class="toctext">Special
-            Organism-Properties</span>](#Special_Organism-Properties)
-        -   [<span class="tocnumber">1.3.4</span> <span
-            class="toctext">Hidden
-            Parameters</span>](#Hidden_Parameters)
--   [<span class="tocnumber">2</span> <span class="toctext">Structure of
-    a file for
-    {{ImageSwitch}}</span>](#Structure_of_a_file_for_.7B.7BImageSwitch.7D.7D)
-    -   [<span class="tocnumber">2.1</span> <span class="toctext">Column
-        parameters for {{ImageSwitch}} in
-        Detail</span>](#Column_parameters_for_.7B.7BImageSwitch.7D.7D_in_Detail)
--   [<span class="tocnumber">3</span> <span class="toctext">Shortcut
-    Writing and Emphasis
-    (Typography)</span>](#Shortcut_Writing_and_Emphasis_.28Typography.29)
--   [<span class="tocnumber">4</span> <span class="toctext">Problems
-    During
-    Import</span>](#Problems_During_Import)
-    -   [<span class="tocnumber">4.1</span> <span
-        class="toctext">Couplet_ID_missing!</span>](#Couplet_ID_missing.21)
+-   [<span class="tocnumber">1</span> <span class="toctext">Structure of a File for {{Key Start}} with {{Lead}}</span>](#structure-of-a-file-for-key-start-with-lead)
+    -   [<span class="tocnumber">1.1</span> <span class="toctext">Brief Example</span>](#brief-example)
+    -   [<span class="tocnumber">1.2</span> <span class="toctext">Meta data for Identification Key in Detail</span>](#meta-data-for-identification-key-in-detail)
+    -   [<span class="tocnumber">1.3</span> <span class="toctext">Columns of the Decision Key Matrix in Detail</span>](#columns-of-the-decision-key-matrix-in-detail)
+        -   [<span class="tocnumber">1.3.1</span> <span class="toctext">Modes of the Decision</span>](#modes-of-the-decision)
+        -   [<span class="tocnumber">1.3.2</span> <span class="toctext">Columns of Determination</span>](#columns-of-determination)
+        -   [<span class="tocnumber">1.3.3</span> <span class="toctext">Special Organism-Properties</span>](#special-organism-properties)
+        -   [<span class="tocnumber">1.3.4</span> <span class="toctext">Hidden Parameters</span>](#hidden-parameters)
+-   [<span class="tocnumber">2</span> <span class="toctext">Structure of a file for {{ImageSwitch}}</span>](#structure-of-a-file-for-imageswitch)
+    -   [<span class="tocnumber">2.1</span> <span class="toctext">Column parameters for {{ImageSwitch}} in Detail</span>](#column-parameters-for-imageswitch-in-detail)
+-   [<span class="tocnumber">3</span> <span class="toctext">Shortcut Writing and Emphasis (Typography)</span>](#shortcut-writing-and-emphasis-typography)
+-   [<span class="tocnumber">4</span> <span class="toctext">Problems During Import</span>](#problems-during-import)
+    -   [<span class="tocnumber">4.1</span> <span class="toctext">Couplet_ID_missing!</span>](#couplet-id-missing)
 
 </div>
 
