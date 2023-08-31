@@ -30,7 +30,7 @@ If you have no MediaWiki available you can convert the table data on the command
 
 1. convert your excel sheet to text file: the output separator has to be “tabulator” or “\t” (it must be the tab character anyhow) save it locally
 2. use the locally saved text-tab file to convert it by `gawk` (install `gawk` by your linux software manager)
-3. under Linux/Unix you can try then translating the tab-delimited source file into a wiki code file using the following command:
+3. under Linux/Unix—perhaps Windows as well using [gnu-awk-for-windows (sourceforge.net)](https://sourceforge.net/projects/gnu-awk-for-windows/)—you can try then translating the tab-delimited source file into a wiki code file using the following command:
 
 ```bash
 cd Excel2DecisionKeyTemplates 
